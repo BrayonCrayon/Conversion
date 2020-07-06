@@ -1,0 +1,4 @@
+C:/Development/C++/Conv/cmake-build-debug/CMakeFiles/ConversionExe.dir
+C:/Development/C++/Conv/cmake-build-debug/CMakeFiles/measurement.dir
+C:/Development/C++/Conv/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Development/C++/Conv/cmake-build-debug/CMakeFiles/rebuild_cache.dir

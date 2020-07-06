@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="Conversion" targetName="ConversionExe" />
+      <config projectName="Conversion" targetName="measurement" />
+    </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="feb107e7-43b3-49a4-b7ce-74673aa95bf1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Conv/Conv.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Conv/Conv.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Measurement.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Units/Gram.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Units/Kilogram.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Units/LongTon.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Units/Mg.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Units/Ounce.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Units/Pound.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Units/ShortTon.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Units/Stone.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Units/Ton.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Units/Unit.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Measurement.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Units/Gram.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Units/Kilogram.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Units/LongTon.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Units/Mg.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Units/Ounce.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Units/Pound.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Units/ShortTon.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Units/Stone.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Units/Ton.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conv/Conv.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conversion.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +46,14 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,11 +73,40 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Conv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Development\C++\Conv\src" />
+      <recent name="C:\Development\C++\Conv\include" />
+      <recent name="C:\Development\C++\Conv\include\measurement" />
+      <recent name="C:\Development\C++\Conv" />
+      <recent name="C:\Development\C++\Conv\program" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Development\C++\Conv\Conv" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.ConversionExe">
+    <configuration name="ConversionExe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Conversion" TARGET_NAME="ConversionExe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Conversion" RUN_TARGET_NAME="ConversionExe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="measurement" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Conversion" TARGET_NAME="measurement" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.ConversionExe" />
+      <item itemvalue="CMake Application.measurement" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,6 +119,9 @@
       <option name="presentableId" value="Default" />
       <updated>1593546489411</updated>
       <workItem from="1593546490860" duration="701000" />
+      <workItem from="1593548796225" duration="367000" />
+      <workItem from="1593787480148" duration="11099000" />
+      <workItem from="1593871699548" duration="3960000" />
     </task>
     <servers />
   </component>
@@ -62,10 +129,44 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="276" key="FileChooserDialogImpl" timestamp="1593547190322">
+    <state x="674" y="244" key="#Conversion" timestamp="1593790197993">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="674" y="244" key="#Conversion/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593790197993" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1593787490563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="276" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1593549162000" />
+    <state x="740" y="276" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593787490563" />
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom" timestamp="1593874978440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1593809271065" />
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593874978440" />
+    <state width="1877" height="222" key="GridCell.Tab.0.center" timestamp="1593874978440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1593809271065" />
+    <state width="1877" height="222" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593874978440" />
+    <state width="1877" height="222" key="GridCell.Tab.0.left" timestamp="1593874978440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1593809271065" />
+    <state width="1877" height="222" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593874978440" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right" timestamp="1593874978440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="222" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1593809271065" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593874978440" />
+    <state x="-1284" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1593871712901">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="276" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1593547190322" />
+    <state x="-1284" y="345" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1593871712901" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593872158306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1593806796176" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593872158306" />
     <state x="-1238" y="426" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593546766567">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

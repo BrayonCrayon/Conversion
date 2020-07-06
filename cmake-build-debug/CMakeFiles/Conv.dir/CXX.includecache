@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Development/C++/Conv/Conv/Conv.cpp
+string
+-
+iostream
+-
+math.h
+-
+sstream
+-
+istream
+-
+regex
+-
+
