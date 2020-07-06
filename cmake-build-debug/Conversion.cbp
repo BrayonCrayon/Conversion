@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Conversion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Development/C++/Conv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ConversionExe">
+				<Option output="C:/Development/C++/Conv/cmake-build-debug/ConversionExe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Development/C++/Conv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 ConversionExe"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ConversionExe/fast">
+				<Option output="C:/Development/C++/Conv/cmake-build-debug/ConversionExe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Development/C++/Conv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 ConversionExe/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="measurement">
+				<Option output="C:/Development/C++/Conv/cmake-build-debug/measurement.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Development/C++/Conv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 measurement"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="measurement/fast">
+				<Option output="C:/Development/C++/Conv/cmake-build-debug/measurement.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Development/C++/Conv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 measurement/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Development/C++/Conv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Development/C++/Conv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Development\C++\Conv\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Development/C++/Conv/include/Measurement.hpp">
+			<Option target="ConversionExe"/>
+			<Option target="measurement"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/include/Units/Gram.hpp">
+			<Option target="ConversionExe"/>
+			<Option target="measurement"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/include/Units/Kilogram.hpp">
+			<Option target="ConversionExe"/>
+			<Option target="measurement"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/include/Units/LongTon.hpp">
+			<Option target="ConversionExe"/>
+			<Option target="measurement"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/include/Units/Mg.hpp">
+			<Option target="ConversionExe"/>
+			<Option target="measurement"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/include/Units/Ounce.hpp">
+			<Option target="ConversionExe"/>
+			<Option target="measurement"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/include/Units/Pound.hpp">
+			<Option target="ConversionExe"/>
+			<Option target="measurement"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/include/Units/ShortTon.hpp">
+			<Option target="ConversionExe"/>
+			<Option target="measurement"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/include/Units/Stone.hpp">
+			<Option target="ConversionExe"/>
+			<Option target="measurement"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/include/Units/Ton.hpp">
+			<Option target="ConversionExe"/>
+			<Option target="measurement"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/include/Units/Unit.hpp">
+			<Option target="ConversionExe"/>
+			<Option target="measurement"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/src/Conversion.cpp">
+			<Option target="ConversionExe"/>
+			<Option target="measurement"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/src/Measurement.cpp">
+			<Option target="ConversionExe"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/src/Units/Gram.cpp">
+			<Option target="ConversionExe"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/src/Units/Kilogram.cpp">
+			<Option target="ConversionExe"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/src/Units/LongTon.cpp">
+			<Option target="ConversionExe"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/src/Units/Mg.cpp">
+			<Option target="ConversionExe"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/src/Units/Ounce.cpp">
+			<Option target="ConversionExe"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/src/Units/Pound.cpp">
+			<Option target="ConversionExe"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/src/Units/ShortTon.cpp">
+			<Option target="ConversionExe"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/src/Units/Stone.cpp">
+			<Option target="ConversionExe"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/src/Units/Ton.cpp">
+			<Option target="ConversionExe"/>
+		</Unit>
+		<Unit filename="C:/Development/C++/Conv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

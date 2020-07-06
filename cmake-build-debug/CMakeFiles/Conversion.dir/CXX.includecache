@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Development/C++/Conv/src/Conversion.cpp
+string
+-
+iostream
+-
+cmath
+-
+sstream
+-
+istream
+-
+regex
+-
+
